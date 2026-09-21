@@ -1,6 +1,6 @@
 /* ==========================================
-   CODE DECIMAL TECHNOLOGIES
-   Premium Blue · Deep Night Theme v2
+   CircuitHubs Technologies PVT LTD
+   Premium Blue · Deep Night Theme
    ========================================== */
 
 @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&family=Manrope:wght@300;400;500;600;700;800&family=Orbitron:wght@600;700;800;900&display=swap');
@@ -1144,13 +1144,14 @@ body {
 }
 
 .leader-email-row {
-  display: none;
+  display: flex;
   align-items: center;
   gap: 12px;
-  margin-bottom: 18px;
+  margin-top: 14px;
+  margin-bottom: 12px;
   background: linear-gradient(135deg, #eff6ff 0%, #f0f9ff 100%);
   border-radius: 12px;
-  padding: 11px 14px;
+  padding: 10px 14px;
   border: 1.5px solid #bfdbfe;
   transition: var(--transition);
 }
@@ -1159,7 +1160,7 @@ body {
   background: linear-gradient(135deg, #dbeafe 0%, #e0f2fe 100%);
 }
 .leader-email-icon {
-  width: 30px; height: 30px;
+  width: 28px; height: 28px;
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -1182,39 +1183,41 @@ body {
 .leader-email-text:hover { color: var(--blue-mid); }
 
 .leader-socials { 
-  display: none;
+  display: flex;
+  justify-content: center;
   gap: 10px;
-  margin-top: auto;
+  margin-top: 14px;
 }
 
 .leader-social-btn {
-  width: 40px; 
-  height: 40px;
+  width: 38px; 
+  height: 38px;
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
   text-decoration: none;
   font-size: 0.85rem;
-  border: 2px solid var(--blue-border);
+  border: 1.5px solid var(--blue-border);
   color: var(--blue-mid);
   transition: var(--spring);
   background: var(--white);
 }
-.lsb-teal, .lsb-orange {
-  color: var(--blue-mid);
-  border-color: var(--blue-border);
-  background: var(--white);
-}
-.lsb-teal:hover, .lsb-orange:hover {
+
+.leader-social-btn:hover {
   background: linear-gradient(135deg, var(--blue-mid), var(--cyan));
   color: white;
   border-color: transparent;
-  transform: translateY(-4px) scale(1.15);
-  box-shadow: 0 8px 20px rgba(26,79,216,0.4);
+  transform: translateY(-3px) scale(1.1);
+  box-shadow: 0 6px 18px rgba(26,79,216,0.35);
 }
 
-.leader-email { display: none !important; }
+.card-color-1 { border-top-color: #2563eb; }
+.card-color-2 { border-top-color: #06b6d4; }
+.card-color-3 { border-top-color: #6366f1; }
+.card-color-4 { border-top-color: #3b82f6; }
+.card-color-5 { border-top-color: #0ea5e9; }
+.card-color-6 { border-top-color: #8b5cf6; }
 
 .leader-card-legal {
   background: linear-gradient(135deg, #ffffff 0%, #f8fbff 100%);
