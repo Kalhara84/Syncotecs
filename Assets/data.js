@@ -106,7 +106,6 @@ window.SITE_DATA = {
         title: "Director",
         theme: "teal",
         image: "Assets/img/team/Kasun_Akshitha.jpeg",
-        email: "kasuna@circuithubstechnologies.com",
         socials: [
           { icon: "fas fa-envelope", href: "mailto:kasuna@circuithubstechnologies.com", title: "Email" },
           { icon: "fab fa-linkedin-in", href: "#", title: "LinkedIn" },
@@ -114,11 +113,10 @@ window.SITE_DATA = {
         ]
       },
       {
-        name: "Pasan",
+        name: "Pasan Kalhara",
         title: "Software Engineer",
         theme: "teal",
         image: "Assets/img/team/Pasan.jpg.jpeg",
-        email: "pasansawmya@gmail.com",
         socials: [
           { icon: "fas fa-envelope", href: "mailto:pasansawmya@gmail.com", title: "Email" },
           { icon: "fab fa-linkedin-in", href: "#", title: "LinkedIn" },
