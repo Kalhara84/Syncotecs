@@ -7,13 +7,33 @@
 document.addEventListener('DOMContentLoaded', () => {
 
   // ============================================================
-  // 1. DYNAMIC CONTENT LOADER (Assets/data.json)
+  // 1. DYNAMIC CONTENT LOADER (Assets/data.json & Fallback)
   // ============================================================
   async function loadContent() {
+    let data = window.SITE_DATA || null;
+
     try {
-      const response = await fetch('./Assets/data.json');
-      if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
-      const data = await response.json();
+      // If served over HTTP/HTTPS, fetch the latest JSON
+      if (window.location.protocol.startsWith('http')) {
+        const response = await fetch('./Assets/data.json');
+        if (response.ok) {
+          data = await response.json();
+        }
+      }
+    } catch (err) {
+      console.log('Using local dataset fallback.');
+    }
+
+    if (!data) {
+      data = window.SITE_DATA;
+    }
+
+    if (!data) {
+      hideLoader();
+      return;
+    }
+
+    try {
 
       // Helper functions for safe DOM updates
       const setText = (id, text) => {

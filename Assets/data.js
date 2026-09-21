@@ -1,4 +1,5 @@
-{
+// CircuitHubs Technologies PVT LTD Site Data
+window.SITE_DATA = {
   "hero": {
     "heroImage": "Assets/img/banner1.png",
     "labelHtml": "Technology solutions <span class=\"hero-dash\">——</span>",
@@ -167,4 +168,4 @@
       }
     ]
   }
-}
+};

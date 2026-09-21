@@ -1218,6 +1218,7 @@ body {
 .card-color-4 { border-top-color: #3b82f6; }
 .card-color-5 { border-top-color: #0ea5e9; }
 .card-color-6 { border-top-color: #8b5cf6; }
+.card-color-7 { border-top-color: #059669; }
 
 .leader-card-legal {
   background: linear-gradient(135deg, #ffffff 0%, #f8fbff 100%);
