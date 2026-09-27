@@ -24,9 +24,9 @@ window.SITE_DATA = {
   // 2. ABOUT US SECTION
   // ------------------------------------------------------
   aboutUs: {
-    titleHtml: "CircuitHubs Technologies PVT LTD: Purpose Driven, Future Ready <em>Solutions</em>",
+    titleHtml: "Syncotecs Technologies PVT LTD: Purpose Driven, Future Ready <em>Solutions</em>",
     paragraphs: [
-      "CircuitHubs Technologies PVT LTD is built on a vision of staying ahead of what is next. We provide purpose-driven technology solutions to businesses worldwide, delivering agile, adaptive, and future-ready enterprise services designed to solve both today's challenges and tomorrow's opportunities.",
+      "Syncotecs Technologies PVT LTD is built on a vision of staying ahead of what is next. We provide purpose-driven technology solutions to businesses worldwide, delivering agile, adaptive, and future-ready enterprise services designed to solve both today's challenges and tomorrow's opportunities.",
       "Our focus is on driving measurable results that accelerate growth, optimize operations, and enhance every aspect of your business. Each solution is tailored to meet the unique goals and requirements of your organization.",
       "We work closely with our clients to transform their technology landscape, ensuring it aligns seamlessly with a digitally empowered future.",
       "Above all, we create solutions that delight stakeholders, reduce effort, improve efficiency, and go beyond meeting needs to exceeding expectations for employees, customers, and partners."
@@ -173,7 +173,7 @@ window.SITE_DATA = {
     ],
     addressTitle: "Our Address",
     addressHtml: "471/3, Highlevel Road, Makumbura, Pannipitiya,<br>Sri Lanka",
-    copyrightHtml: "Copyright &copy; 2026 <strong>CircuitHubs Technologies PVT LTD</strong>",
+    copyrightHtml: "Copyright &copy; 2026 <strong>Syncotecs Technologies PVT LTD</strong>",
     bottomLinks: [
       {
         label: "About Us",
