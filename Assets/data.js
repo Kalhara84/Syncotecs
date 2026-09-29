@@ -103,7 +103,7 @@ window.SITE_DATA = {
     members: [
       {
         name: "Kasun Akshitha",
-        title: "Director",
+        title: "Senior Engineer",
         theme: "teal",
         image: "Assets/img/team/Kasun_Akshitha.jpeg",
         socials: [
@@ -122,6 +122,17 @@ window.SITE_DATA = {
           { icon: "fab fa-linkedin-in", href: "#", title: "LinkedIn" },
           { icon: "fas fa-phone-alt", href: "tel:+94723466524", title: "Call" }
         ]
+      },
+	  {
+        name: "Kalana Gajanayake",
+        title: "Senior Marketing Officer",
+        theme: "teal",
+        image: "Assets/img/team/Kalana.jpeg",
+        socials: [
+          { icon: "fas fa-envelope", href: "mailto:pasansawmya@gmail.com", title: "Email" },
+          { icon: "fab fa-linkedin-in", href: "#", title: "LinkedIn" },
+          { icon: "fas fa-phone-alt", href: "tel:+94710361063", title: "Call" }
+        ]
       }
     ]
   },
@@ -137,24 +148,24 @@ window.SITE_DATA = {
     missionTitle: "Contact Us",
     missionContacts: [
       {
-        href: "mailto:info@circuithubstechnologies.com",
+        href: "Tech.Syncotecs@outlook.com",
         icon: "fas fa-envelope",
-        text: "Business inquiries - info@circuithubstechnologies.com"
+        text: "Business inquiries - Tech.Syncotecs@outlook.com"
       },
       {
-        href: "mailto:sales@circuithubstechnologies.com",
+        href: "Tech.Syncotecs@outlook.com",
         icon: "fas fa-file-signature",
-        text: "Tender Submissions - sales@circuithubstechnologies.com"
+        text: "Tender Submissions - Tech.Syncotecs@outlook.com"
       },
       {
-        href: "tel:+94772411373",
+        href: "tel:+94774070137",
         icon: "fas fa-phone-alt",
-        text: "0772411373 / 0774070137"
+        text: "0774070137/0723466524"
       },
       {
-        href: "https://maps.google.com/?q=471/3+Highlevel+Road+Makumbura+Pannipitiya+Sri+Lanka",
+        href: "",
         icon: "fas fa-map-marker-alt",
-        text: "471/3, Highlevel Road, Makumbura, Pannipitiya, Sri Lanka",
+        text: "No 104/1/A Narangodapaluwa Batuwaththa Ragama",
         targetBlank: true
       }
     ],
